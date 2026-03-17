@@ -1,73 +1,48 @@
 # Solo Ball Play
 
-**English version (Русская версия ниже)**
+Minimalist arcade game built with `Flutter`.
 
-Solo Ball Play is a minimalist arcade game built with Flutter, inspired by the core mechanics of *Flappy Bird* but reimagined with clean geometric shapes and smooth animations. The game features custom physics, dynamic obstacle generation, and responsive controls for both mobile and web platforms.
+`Solo Ball Play` is a compact arcade project inspired by endless runner and flap-style mechanics. Instead of copying a classic bird character, the game uses a clean geometric ball, custom obstacle logic, and a stripped-down visual style focused on gameplay rhythm and score chasing.
 
----
+## Features
 
-## 🎮 Features
-- Custom game physics with smooth animations
-- Minimalist geometric design
-- Dynamic obstacle generation for endless gameplay
-- Responsive controls for touch and keyboard
+- one-tap arcade gameplay
+- custom obstacle generation
+- simple physics-based movement
+- high score persistence
+- lightweight visual design
+- Flutter multi-platform setup
 
-## 🛠 Tech Stack
-- Flutter (Dart)
-- Custom physics logic
-- Responsive UI for mobile and web
-- State management (setState)
+## Tech Stack
 
-## 🚀 Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/<your-username>/solo_ball_play.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd solo_ball_play
-   ```
-3. Install dependencies:
-   ```bash
-   flutter pub get
-   ```
-4. Run the game:
-   ```bash
-   flutter run
-   ```
+- Flutter
+- Dart
+- shared_preferences
 
-# Solo Ball Play (RU)
+## Project Structure
 
-Solo Ball Play — минималистичная аркадная игра на Flutter, вдохновлённая механикой *Flappy Bird*, но переосмысленная в стиле чистых геометрических форм и плавных анимаций. В игре реализована собственная физика, динамическая генерация препятствий и отзывчивое управление для мобильных и веб-платформ.
+```text
+lib/
+  main.dart
+  screens/games/flappy_bird_screen.dart
+  services/score_service.dart
+  models/game_model.dart
+  widgets/game_card.dart
+```
 
----
+## Getting Started
 
-## 🎮 Особенности
-- Собственная физика игры с плавными анимациями
-- Минималистичный геометрический дизайн
-- Динамическая генерация препятствий для бесконечной игры
-- Отзывчивое управление для сенсорных экранов и клавиатуры
+```bash
+flutter pub get
+flutter run
+```
 
-## 🛠 Технологии
-- Flutter (Dart)
-- Собственная физическая логика
-- Адаптивный UI для мобильных и веб-платформ
-- Управление состоянием (setState)
+## Use Cases
 
-## 🚀 Установка
-1. Клонировать репозиторий:
-   ```bash
-   git clone https://github.com/<ваш-логин>/solo_ball_play.git
-   ```
-2. Перейти в папку проекта:
-   ```bash
-   cd solo_ball_play
-   ```
-3. Установить зависимости:
-   ```bash
-   flutter pub get
-   ```
-4. Запустить игру:
-   ```bash
-   flutter run
-   ```
+- arcade mechanics prototype
+- Flutter game experimentation
+- portfolio project for gameplay fundamentals
+
+## Status
+
+Small but complete arcade prototype with score tracking and replayable gameplay loop.
